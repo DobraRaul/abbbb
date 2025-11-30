@@ -23,7 +23,7 @@ public class Main {
         System.out.println("First 8 prime numbers:");
 
         // Keep searching until we find 8 prime numbers
-        while (count < 8) {
+        while (count < 7) {
             if (isPrime(number)) {
                 System.out.print(number + " ");
                 count++; // Increase how many primes we printed
